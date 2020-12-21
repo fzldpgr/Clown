@@ -64,21 +64,21 @@ h1
 h2
 {
     font-size: 180%;
+    font-family: 'Press Start 2P';
     word-spacing: 2px;
     text-align: center;
     margin-bottom: 30px;
+    margin-top: -30px;
     letter-spacing: 1px;
 }
 
 h2:after
 {
     display: block;
-    height: 2px;
-    background-color: #e67e22;
     content: " ";
     width: 100px;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-bottom: 60px;
 }
 
 h3
@@ -133,6 +133,7 @@ blockquote
 {
     padding: 2%;
     font-style: italic;
+    font-size: 120%;
     line-height: 145%;
     position: relative;
     margin-top: 25%;
@@ -156,7 +157,7 @@ blockquote:before
 .notion__img img
 {
     height: 350px;
-    align-items:flex-end;   
+    align-items:flex-end;
 }
 
 .notion__text

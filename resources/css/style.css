@@ -17,11 +17,6 @@ header
     background-attachment: fixed;
 }
 
-header:hover
-{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(img/hero-front.jpeg);
-}
-
 .hero-text-box
 {
     overflow: hidden;
@@ -90,4 +85,87 @@ h3
 {
     font-size: 110%;
     margin-bottom: 15px;
+}
+
+
+/* ---IMAGES--- */
+
+.section-notion
+{
+    
+}
+
+.notion__showcase--left
+{
+    list-style: none;
+    display: flex;
+    justify-content:start;
+}
+
+.notion__showcase--left .immg
+{
+    flex: 0 0 30%;
+}
+
+.notion__showcase--left blockquote
+{
+    flex: 1;
+}
+
+.notion__showcase--right
+{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.notion__showcase--right .immg
+{
+    flex: 0 0 30%;
+}
+
+.notion__showcase--right blockquote
+{
+    flex: 1;
+}
+
+blockquote
+{
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 25%;
+}
+
+blockquote:before
+{
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -10px;
+}
+
+.notion__img
+{
+    font-size: 90%;
+}
+
+.notion__img img
+{
+    height: 350px;
+    align-items:flex-end;   
+}
+
+.notion__text
+{
+    justify-content: center;
+    align-items: center;
+}
+
+.immg
+{
+    width: 50%;
 }

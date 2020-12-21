@@ -142,7 +142,7 @@ blockquote
 blockquote:before
 {
     content: "\201C";
-    font-size: 500%;
+    font-size: 550%;
     display: block;
     position: absolute;
     top: -5px;
@@ -157,6 +157,7 @@ blockquote:before
 .notion__img img
 {
     height: 350px;
+    width: 270px;
     align-items:flex-end;
 }
 

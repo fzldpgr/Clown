@@ -218,3 +218,18 @@ cite img
     margin: 10px 0 35px 0;
     text-align: center;
 }
+
+/*---FOOTER---*/
+
+footer
+{
+    background-color: rgb(99, 99, 99);
+    padding: 20px;
+    font-size: 80%;
+}
+
+footer p
+{
+    color: rgb(255, 255, 255);
+    text-align: center; 
+}
